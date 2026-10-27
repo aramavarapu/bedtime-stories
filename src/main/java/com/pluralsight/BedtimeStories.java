@@ -23,6 +23,7 @@ public class BedtimeStories {
             bufReader.close();
         }
         catch (IOException e) {
+            System.out.println("Error: File not found");
             e.printStackTrace();
         }
         scanner.close();
